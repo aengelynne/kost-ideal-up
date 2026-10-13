@@ -152,7 +152,7 @@ hr { border-color: #dfe6d9; }
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='kost-eyebrow'>KOSTARA · SMART KOST FINDER</div>", unsafe_allow_html=True)
+st.markdown("<div class='kost-eyebrow'>KOST12 · SMART KOST FINDER</div>", unsafe_allow_html=True)
 st.caption("Temukan tempat tinggal yang cocok dengan kebutuhan, budget, dan gaya hidupmu.")
 
 # ============================================================
@@ -307,7 +307,7 @@ def cari_kost():
 # ============================================================
 
 with st.sidebar:
-    st.markdown("## 🏡 kostara.")
+    st.markdown("## 🏡 kost12.")
     st.caption("Pencarian kost yang lebih mudah")
     st.divider()
     st.markdown("#### MENU")
@@ -375,7 +375,7 @@ if halaman == "Beranda":
             st.write("Lihat rincian skor untuk membandingkan setiap pilihan.")
 
     st.divider()
-    st.caption("KOSTARA · Temukan ruang yang pas untuk cerita barumu.")
+    st.caption("KOST12 · Temukan ruang yang pas untuk cerita barumu.")
 
 # ============================================================
 # 6. TAMBAH DATA KOST
